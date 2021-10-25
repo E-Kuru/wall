@@ -1,12 +1,17 @@
 import React from 'react'
 
-import users from './users.json'
 import Card from './components/Card'
+import './App.css'
 
 class App extends React.Component {
   render() {
     return (
-      // hello
+      <div>
+        <h1>The Wall</h1>
+        <div className="users">
+          <Card/>
+        </div>
+      </div>
     )
   }
 }
