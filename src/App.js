@@ -10,6 +10,9 @@ class App extends React.Component {
         <h1>The Wall</h1>
         <div className="users">
           <Card/>
+          {/* <div className="row justify-content-around">
+          {users.map(user => <Card user={user} />)}
+        </div> */}
         </div>
       </div>
     )
